@@ -9,7 +9,7 @@ const articleBody = faker.lorem.paragraph();
 const apiUrl = Cypress.env("apiUrl");
 let slug;
 
-describe("Main Suite", () => {
+describe("Main Suite: API tests", () => {
   it("Should register a new account", () => {
     const requestData = {
       user: {
